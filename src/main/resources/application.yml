@@ -1,9 +1,9 @@
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:5432/bellagio
+    url: jdbc:postgresql://localhost:5432/bellago_db
     username: postgres
-    password: 123
+    password: postgres
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: update
+      ddl-auto: create-drop
